@@ -65,7 +65,7 @@ class AlarmBroadcastReceiver : BroadcastReceiver() {
             .setDefaults(Notification.DEFAULT_ALL)
             .setWhen(System.currentTimeMillis())
             .setSmallIcon(R.mipmap.ic_launcher)
-            .setTicker("NoteApplication-HitenSadani") //.setPriority(Notification.PRIORITY_MAX)
+            .setTicker("NoteApplication-YashPatel") //.setPriority(Notification.PRIORITY_MAX)
             .setContentTitle(title)
             .setContentText(descr)
             .setContentInfo(descr + "Information")
